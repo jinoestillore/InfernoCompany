@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="keywords" content="Web Design, HTML Web Design, Simple Web">
+   <meta name="description" content="Simple Web Page">
+   <meta name="author" content="Jino A. Estillore">
+   <title>NEWS—INFERNO COMPANY</title>
+   <link rel="stylesheet" href="news.css">
+   <link rel="stylesheet" href="HELLOWORLD.css">
+   
+    <script>
+    function updateTime() {
+      const now = new Date();
+      let hours = now.getHours();
+      const minutes = now.getMinutes();
+      const seconds = now.getSeconds();
+      let timePeriod = 'AM'; // default is AM
+
+      // convert to 12-hour format
+      if (hours > 12) {
+        hours -= 12;
+        timePeriod = 'PM';
+      } else if (hours === 0) {
+        hours = 12;
+      }
+
+      const timeString = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')} ${timePeriod}`;
+      document.getElementById('time').innerHTML = timeString;
+    }
+
+    setInterval(updateTime, 1000);
+  </script>
+  
+</head>
+<body>
+  <div class="container">
+   <div class="news-box">
+       <div class="header">
+     
+   <div class="brand" id="News">
+    <a href="inferno.jpg" target="_blank"><img src="inferno.jpg" alt="INFERNO LOGO"></a>
+    <h1><span style="color: orange;">INFERNO</span>
+    <span style="color: white;"> COMPANY</span></h1>
+   </div>
+   
+  <div class="nav">   
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="ABOUT.html">About</a></li>
+       <li><a href="NEWS.html" id="current">News</a></li>
+    </ul>
+  </div>       
+  </div>
+  
+    <br />
+    <br />
+    <br />
+    <br />
+  <div class="news-section">
+   <center>
+   <div id="news-box">
+   <p id="news-title">NEWS</p>
+   <div id="time">00:00:00 AM/PM</div>
+   </div>
+   </center>
+  </div>
+  <br />
+  <br />
+  <br />
+  
+  <center>
+  <div class="news-article">
+     <br />
+     <br />
+    <h3><code><u>UPDATE: Exciting News from Inferno: A Brighter Future Ahead!</u></code></h3>
+    <br />
+    <h3><code>September 1, 2023—Friday 8:00AM +GTM</code></h3>
+    <h3><i>Inferno Company</i></h3>
+    <br />
+    <br />
+    <div class="news-center">
+       <p>
+<strong>Dear Inferno Team and Valued Customers,</strong>
+
+                                       I hope this message finds you in good health and high spirits. First and foremost, I want to express my heartfelt gratitude for your unwavering dedication and support, which have brought us to where we are today.
+
+Now, I am thrilled to share some extraordinary news that will undoubtedly bring joy and excitement to all of you. Inferno has reached a significant milestone that marks a turning point in our journey. We are embarking on a path to an even brighter future!
+
+We&apos;ve been working tirelessly behind the scenes to enhance your experience with Inferno, and I&apos;m delighted to reveal that we have successfully achieved it. 
+
+Here's what this means for you: </p>
+    </div>
+    
+    <div class="news-center-icons">    
+       
+       <h2>COMPANY&apos;S DEVELOPMENT</h2>
+       
+      <div class="icon-box">        
+       <div class="container-icon">
+          <center>
+          <img src="economicOne.png" alt="man standing with a gold coin">
+          <img src="economicTwo.png" alt="bag of cash">
+          </center>
+       </div>     
+       <br />
+       <br />
+       <h3>I. Exciting new growth opportunities,
+        career development, and enriching experiences 
+        await you as we expand our operations.
+       
+II. We're committed to fostering a positive work 
+environment, complete with more employee
+benefits, recognition programs, and initiatives 
+to support your well-being.</h3>
+    </div>
+      
+       <h2>CONSUMER&apos;S BENEFITS</h2>
+       
+      <div class="icon-box">
+       
+       <h3>I. Prepare to be delighted!
+              We&apos;re introducing new and improved
+              products/services that cater to your evolving needs.
+       
+II. You can expect an even higher level of quality,
+    reliability, and customer service from Inferno.</h3>
+       <br />
+       <br />
+       <div class="container-icon">
+       <center>
+        <img src="productOne.png">
+        <img src="productTwo.jpg">
+        <br />
+        <br />
+       </center>
+       </div>
+      </div>
+     </div>
+     <div class="news-center">
+        <p>This achievement wouldn't have been possible without the incredible dedication of our team and the trust and support of our loyal customers. Your passion and loyalty are the driving forces behind Inferno's success, and we are immensely grateful for that.
+
+As we embark on this exciting new chapter, I invite you all to share in our enthusiasm and continue this remarkable journey with us. Together, we will reach new heights and make Inferno's flame burn even brighter.
+
+Stay tuned for more details in the coming weeks as we roll out these exciting changes. Thank you for being an integral part of the Inferno family, and let's look forward to a future filled with even more success and prosperity.
+
+With sincere appreciation and excitement,
+
+<strong>Mr. Jino A. Estillore</strong>
+<i>CEO, Inferno</i></p>   
+  </div>
+  
+  </div>
+  <br />
+  <br />
+  <br />
+  <div class="news-footer">
+  <h1><i><u>NEWS UPDATE</u></i></h1>
+  <strong><i>Inferno Company</i></strong>
+  </div>
+  <br />
+  <br />
+  
+  </div>
+  </div>
+</body>
+</html>

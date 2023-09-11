@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="keywords" content="Web Design, HTML Web Design, Simple Web">
+   <meta name="description" content="Simple Web Page">
+   <meta name="author" content="Jino A. Estillore">
+   <title>ABOUT—INFERNO COMPANY</title>
+   <link rel="stylesheet" href="HELLOWORLD.css">
+   <link rel="stylesheet" href="news.css">
+   <link rel="stylesheet" href="ABOUT.css">
+      
+</head>
+<body>
+   <div class="container">
+    <div class="about-box">
+     <div class="about-header" id="about">
+       <img src="inferno.jpg" alt="inferno logo"/>
+       <p id="about-title"><span style="color: orange;">INFERNO</span><span style="color: white;"> COMPANY</span></p>
+       
+       <div class="nav-about">   
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#about" id="current">About</a></li>
+       <li><a href="NEWS.html">News</a></li>
+    </ul>
+  </div> <!--Div's Nav Closing-->   
+      <p id="about-subtitle">ABOUT</p>
+     </div> <!--Div's about-header closing-->
+   
+       <div class="about-section">
+          <p><strong>
+             
+Welcome to Inferno Company </strong> <br />
+<i>"Bringing the people into a world of best quality."</i>
+<br />
+<br />
+At Inferno Company, we are dedicated to shaping the future through innovation and a relentless pursuit of excellence.<br />
+With a rich history and a forward-thinking vision, we are committed to delivering solutions that transform industries and improve lives.
+<br />
+<br />
+Inferno Company was founded in 2022 with a simple yet powerful idea: to make a meaningful impact on the world through innovation. <br />Over the years, we have evolved and diversified, but our core values of integrity, creativity, and dedication to our customers have remained constant.<br /><br />
+
+<strong style="text-transform: uppercase;"><u>What Sets Us Apart:</u></strong><br /><br />
+<strong>I.</strong> Innovation at Our Core: We thrive on pushing boundaries and embracing change. <br />Our team of visionaries and experts are at the forefront of innovation, driving progress in the industry.<br />
+<br /><strong>II.</strong> Commitment to Quality: Quality is not just a buzzword for us; it's a way of life.<br /> We hold ourselves to the highest standards to ensure our products and services consistently exceed expectations.<br />
+<br /><strong>III.</strong> Global Reach: With a presence in 19 countries, we have a global perspective that allows us to adapt and thrive in diverse markets. <br /><br />
+<strong>IV.</strong> Sustainability: We are deeply committed to sustainability and responsible business practices, striving to minimize our environmental impact and contribute positively to the communities we serve.<br /><br />
+
+<strong style="text-transform: uppercase;"><u>Why Choose Us:</u></strong><br /><br />
+When you choose Inferno Company, you're choosing a partner that's committed to your success and the betterment of society. Whether it's our groundbreaking technologies, our dedication to environmental stewardship, or our unwavering focus on customer satisfaction, we're here to make a positive difference in the world.
+
+Join us in shaping a brighter future. Explore how [Your Main Company Name] can be your catalyst for success and a force for positive change.
+<br /><br />
+<i>0987654321</i><br />
+<i>Inferno@email.com</i>
+
+
+          </p>
+       </div> <!--Div's about-section closing-->
+       <br />
+       <br />
+       
+    </div> <!--Div's about-box closing-->
+    
+    
+     <div id="associates">
+    <br />
+    <br />
+ <p> COMPANY ASSOCIATES </p>
+ </div><!--Div's associates closing-->
+ 
+ <div class="affiliates-lineup">
+  <div class="affiliates-box">
+   <div class="affiliates">
+      <br />
+      <br />
+     <div class="affiliates-brand" id="brandnameOne">
+       <a href="inferno.jpg" target="_blank"><img src="inferno.jpg" alt="INFERNO LOGO"></a>
+    <h1><span style="color: red;">HOTEL</span><span style="color: orange;"> INFERNO</span></h1>
+    </div><!--Div's affiliates-brand closing-->
+    <br />
+     <button onclick="SeeOne();" id="description-button"> SEE MORE </button>
+    <br />
+    <br />
+   </div><!--Div's affiliates closing-->
+   
+    <div class="affiliates">
+      <br />
+      <br />
+     <div class="affiliates-brand" id="brandnameTwo">
+       <a href="inferno.jpg" target="_blank"><img src="inferno.jpg" alt="INFERNO LOGO"></a>
+    <h1><span style="color: orange;">INFERNO</span><span style="color: #8098ff; text-shadow: white-space: wrap;"> Call Services</span></h1>
+    </div><!--Div's affiliates-brand closing-->
+    <br />
+     <button onclick="SeeTwo();" id="description-button"> SEE MORE </button>
+    <br />
+    <br />
+   </div><!--Div's affiliates closing-->
+   
+   <span id="link-to-see-more"><h1 style="color: red;">NOTICE: <span style="color: black;">Click the button below the affiliate's brand name to show more details.</span></h1></span>
+   
+      <script type="text/JavaScript">
+      
+      function SeeOne() {
+      
+      document.getElementById("affiliate-articleOne").style.display="block";
+document.getElementById("affiliate-articleTwo").style.display="none";
+document.getElementById("link-to-see-more").style.display="none";
+document.getElementById("brandnameOne").style.boxShadow="1px 1px 20px green";
+document.getElementById("brandnameTwo").style.boxShadow="none";
+     }
+     
+      function SeeTwo() {
+      
+      document.getElementById("affiliate-articleOne").style.display="none";
+document.getElementById("affiliate-articleTwo").style.display="block";
+document.getElementById("link-to-see-more").style.display="none";
+document.getElementById("brandnameTwo").style.boxShadow="1px 1px 20px green";
+document.getElementById("brandnameOne").style.boxShadow="none";
+      }
+      
+      </script>
+   </div><!--Div's affiliates-box closing-->
+  </div><!--Div's affiliates-lineup closing-->
+   
+   <div id="affiliate-articleOne">
+      <br />
+        <h1><span style="color: red;">HOTEL</span><span style="color: orange;"> INFERNO</span></h1>
+      <p><center><strong>Welcome to Hotel Inferno</strong> <br /><i>&quot;Where Comfort Meets Luxury&quot;</i></center></p>
+
+<br /> 
+     <h1 style="color: red;"> ABOUT US </h1>
+     <br />
+     <div class="description-box">
+      <p id="readOne">We are dedicated to providing you with an unforgettable 
+       experience from the moment you step through our doors.
+       Nestled in the heart of Bohol, our hotel is a hidden gem that
+        combines modern elegance with warm hospitality.</p>
+      <a href="hotel.jpg" target="_blank" /><img src="hotel.jpg" alt="building pic"></a>
+      </div><!--Div's description-box closing-->
+      <br />
+      <br />
+      <div class="description-box">
+       <a href="hotel1.jpg" target="_blank" ><img src="hotel1.jpg" alt="building pic" /></a>
+       <p id="readOne"><strong>Hotel Inferno</strong> is more than just a place to stay; 
+       it's a reflection of our passion for hospitality. 
+       Established in 2022, our journey began with a vision to 
+       create a sanctuary for travelers, a home away from home. 
+       Over the years, we have perfected the art of delivering exceptional service and crafting memorable 
+       moment for our guests.</p>
+      </div><!--Div's description-box closing-->
+      
+      <center>
+       <p id="readOne" style="border: 2px solid red; background-color: silver;" >
+          Whether you're traveling for business or leisure, 
+          Hotel Inferno offers the perfect blend of convenience and luxury. 
+          We take pride in exceeding your expectations and creating memories that last a lifetime.
+          Come and experience the essence of Bohol with us. Book your stay today and let us be a part of your journey.
+          <br />
+          
+          <i>hotelinferno@gmail.com</i>
+          <br />
+       </p>
+       
+         <button onclick="closeOne();" id="description-buttonClose"> CLOSE </button>
+         
+         <script type="text/JavaScript">
+            
+            function closeOne() {
+      
+document.getElementById("affiliate-articleOne").style.display="none";
+document.getElementById("brandnameOne").style.boxShadow="none";
+document.getElementById("link-to-see-more").style.display="block";
+      }
+         </script>
+       </center>
+       <br />
+       <br />
+   </div><!--Div's affiliate-articleOne closing-->
+   
+   <div id="affiliate-articleTwo">
+       <br />
+         <h1><span style="color: orange;">INFERNO</span><span style="color: #8098ff; text-shadow: white-space: wrap;"> Call Services</span></h1>
+      <p><center><strong>Welcome to Inferno Call Services</strong><br /> <i>&quot;Your Partner in Exceptional Customer Service&quot;</i></center></p>
+
+<br /> 
+     <h1 style="color: #8098ff;"> ABOUT US </h1>
+     <br />
+     <div class="description-box">
+      <p id="readOne">At <strong>Inferno Call Services</strong>, we are dedicated to revolutionizing the customer service experience.
+       With a commitment to excellence and a passion for helping businesses thrive, we are your trusted partner
+        in delivering outstanding support to your valued customers.</p>
+      <a href="callcenter.jpg" target="_blank" /><img src="callcenter.jpg" alt="building pic"></a>
+      </div><!--Div's description-box closing-->
+      <br />
+      <br />
+      <div class="description-box">
+       <a href="callcenter1.jpg" target="_blank" ><img src="callcenter1.jpg" alt="building pic" /></a>
+       <p id="readOne"><strong>Inferno Call Sevices</strong> was founded in 2023
+        with a clear mission: to bridge the gap between
+         businesses and their customers through 
+         exceptional communication. We understand that the heart 
+         of any successful enterprise is customer satisfaction, and that's where we excel.</p>
+      </div><!--Div's description-box closing-->
+      
+      <center>
+       <p id="readOne" style="border: 3px solid #8098ff; background-color: silver;" >
+          When you partner with Inferno Call Services, 
+          you're choosing a team that understands the importance of every customer interaction. 
+          We're more than a call center; we're an extension of your brand, dedicated to enhancing customer loyalty and driving growth.
+
+Discover the difference, in Inferno Call Services can make for your business. 
+Contact us today to explore how our customer service solutions can elevate your brand's reputation and drive success.
+          <br />
+          
+          <i>InfernoCallServices@gmail.com</i>
+          <br />
+       </p>
+         <button onclick="closeTwo();" id="description-buttonClose"> CLOSE </button>
+         
+       <script type="text/JavaScript">
+          
+         function closeTwo() {
+      
+document.getElementById("affiliate-articleTwo").style.display="none";
+document.getElementById("brandnameTwo").style.boxShadow="none";
+document.getElementById("link-to-see-more").style.display="block";
+      }
+      
+      </script>
+       </center>
+       <br />
+       <br />
+   </div><!--Div's affiliate-articleTwo closing-->
+    
+   <div class="sign-up-aside">
+      <center>
+      <p> LOGIN <br />TO <br />YOUR
+      <span style="font-family: Arial; font-size: 52px; letter-spacing: -5px; font-weight: bold;"> 
+      <span style="color: blue;">G</span>
+      <span style="color: red;">O</span>
+      <span style="color: orange;">O</span>
+      <span style="color: blue;">G</span>
+      <span style="color: green;">L</span>
+      <span style="color: red;">E</span>
+      </span>
+      &nbsp;ACCOUNT </p>
+      </center>
+    <div class="signup-container">
+       
+    <h2>Sign-up your account</h2>
+    <form class="signup-form">
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <br />
+      <br />
+      <center><button type="submit">Login</button></center>
+    </form>
+  </div> <!--Div's signup-container closing-->
+   </div> <!--Div's sign-up-aside closing-->
+   
+     <div class="footer">
+       <address>
+          <br />
+       <p> 123-4567-890 </p>
+       <p> (6332) Saa, Inabanga, Bohol </p>
+       </address>
+       <p> ©COPYRIGHT of 2023 </p>
+       <p> All Rights Reserve | Inferno Corporation </p>
+       <br />
+    </div> <!--Div's Footer Closing-->
+ 
+   </div> <!--Div's container closing-->
+  </body>
+</html>

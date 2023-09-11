@@ -1,0 +1,117 @@
+.news-box {
+width: 100%;
+margin: 0px;
+padding: 0px;
+background: url("showcase.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+border-top: 10px solid orange;
+border-bottom: 20px solid orange;
+}
+
+.news-section {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+margin: 5px;
+text-align: center;
+}
+
+#time {
+color: white;
+font-size: 24px;
+}
+
+#news-box {
+border: 1px solid white;
+border-radius: 10px;
+padding: 10px;
+max-width: 290px;
+}
+
+.news-section #news-title {
+margin: 0px;
+font-size: 70px;
+font-family: serif;
+font-weight: bold;
+text-align: center;
+color: orange;
+}
+
+.news-article {
+background-color: silver;
+padding: 10px;
+margin: 0px;
+border-top: 3px solid orange;
+border-bottom: 2px solid orange;
+width: 95%;
+}
+
+.news-article code {
+font-size: 19px;
+}
+
+.news-article h3 {
+color: black;
+text-align: left;
+margin: 1px 0px 0px 4px;
+}
+
+.news-center p {
+white-space: pre-line;
+text-align: left;
+}
+
+.news-center-icons {
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+background-color: white;
+}
+
+.news-center-icons h2 {
+font-family: serif;
+text-align: left;
+text-decoration: underline;
+margin-left: 5px;
+}
+
+.container-icon {
+display: flex;
+flex-wrap: wrap;
+justify-content: flex-start;
+margin: 0px;
+padding: 10px;
+}
+
+.icon-box {
+display: flex;
+flex-wrap: wrap;
+padding: 0px;
+margin: 0px;
+}
+
+.icon-box h3 {
+white-space: pre-line;
+margin-top: 25px;
+}
+
+.container-icon img {
+border-radius: 12px;
+border: 1px solid black;
+max-width: 160px;
+height: 150px;
+padding: 10px;
+margin: 18px 10px 10px 10px;
+box-shadow: 2px 20px 20px grey;
+}
+
+.news-footer {
+padding: 5px;
+margin: 5px;
+}
+
+.news-footer h1, .news-footer strong {
+color: white;
+margin: 1px;
+}
